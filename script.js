@@ -5,7 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
         { question: "Est-ce que JavaScript peut modifier le contenu HTML ?", correct: "VRAI" },
         { question: "CSS est un langage de programmation ?", correct: "FAUX" },
         { question: "HTML signifie HyperText Markup Language ?", correct: "VRAI" },
-        { question: "JavaScript a été créé en 2005 ?", correct: "FAUX" }
+        { question: "JavaScript a été créé en 2005 ?", correct: "FAUX" },
+        { question: "React est un framework JavaScript ?", correct: "FAUX" },
+        { question: "Le langage Python est souvent utilisé pour l'analyse de données ?", correct: "VRAI" },
+        { question: "Le CSS est utilisé pour ajouter de la structure à un site web ?", correct: "FAUX" },
+        { question: "La balise <div> en HTML est utilisée pour structurer des sections de contenu ?", correct: "VRAI" },
+        { question: "Le langage SQL est utilisé pour manipuler des bases de données ?", correct: "VRAI" },
+        { question: "Node.js est un environnement d'exécution JavaScript côté serveur ?", correct: "VRAI" }
     ];
 
     let currentQuestionIndex = 0, correctAnswers = 0, wrongAnswers = 0;
