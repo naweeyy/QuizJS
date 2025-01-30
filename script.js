@@ -2,16 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const question = document.getElementById("question"), btn1 = document.getElementById("btn-1"), btn2 = document.getElementById("btn-2"), progressBar = document.getElementById("progress-bar");
 
     const quizData = [
-        { question: "Est-ce que JavaScript peut modifier le contenu HTML ?", correct: "VRAI" },
-        { question: "CSS est un langage de programmation ?", correct: "FAUX" },
-        { question: "HTML signifie HyperText Markup Language ?", correct: "VRAI" },
-        { question: "JavaScript a été créé en 2005 ?", correct: "FAUX" },
-        { question: "React est un framework JavaScript ?", correct: "FAUX" },
-        { question: "Le langage Python est souvent utilisé pour l'analyse de données ?", correct: "VRAI" },
-        { question: "Le CSS est utilisé pour ajouter de la structure à un site web ?", correct: "FAUX" },
-        { question: "La balise <div> en HTML est utilisée pour structurer des sections de contenu ?", correct: "VRAI" },
-        { question: "Le langage SQL est utilisé pour manipuler des bases de données ?", correct: "VRAI" },
-        { question: "Node.js est un environnement d'exécution JavaScript côté serveur ?", correct: "VRAI" }
+        { question: "HTML est un langage de programmation ?", correct: "FAUX" },
+        { question: "Bootstrap est une bibliothèque CSS ?", correct: "VRAI" },
+        { question: "Le Doctype HTML est obligatoire dans chaque document HTML ?", correct: "VRAI" },
+        { question: "Java peut être utilisé pour développer des applications mobiles ?", correct: "VRAI" },
+        { question: "C# est principalement utilisé pour le développement backend ?", correct: "VRAI" },
+        { question: "JSON signifie JavaScript Object Network ?", correct: "FAUX" },
+        { question: "Un fichier JavaScript avec l'extension .jsx est utilisé dans React ?", correct: "VRAI" },
+        { question: "Git est un système de gestion de bases de données ?", correct: "FAUX" },
+        { question: "PHP est un langage interprété côté serveur ?", correct: "VRAI" },
+        { question: "Sass est une extension de CSS ?", correct: "VRAI" }
     ];
 
     let currentQuestionIndex = 0, correctAnswers = 0, wrongAnswers = 0;
